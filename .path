@@ -1,0 +1,9 @@
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+export PATH="$PATH:$HOME/bin"
+export PATH="$PATH:$HOME/workspaces/flutter/flutter/bin"
+export PATH="$PATH:$HOME/.pub-cache/bin"
+export PATH="$PATH:$HOME/.pyenv/bin" && eval "$(pyenv init -)"
+export PATH="$PATH:$HOME/.jenv/bin"
+export PATH="$PATH:$HOME/.cargo/bin" && source $HOME/.cargo/env
+export PATH="$PATH:$HOME/.rvm/bin" && [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && source "$NVM_DIR/nvm.sh"

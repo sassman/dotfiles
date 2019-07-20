@@ -1,0 +1,36 @@
+[user]
+    name = Sven Assmann
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
+    ui          = true
+    pager       = true
+[alias]
+    co  = checkout
+    cm  = commit -m
+    st  = status
+    di  = diff
+    dic = diff --cached
+    br  = branch -a  
+    pl  = pull --rebase
+    ph  = push origin
+    f   = fetch -apt --all
+    unstage = reset
+    merge-to = "!gitmergeto() { export tmp_branch=`git branch | grep '* ' | tr -d '* '`; git checkout $1 && git merge --no-ff $tmp_branch && git checkout $tmp_branch; unset tmp_branch; }; gitmergeto"
+    m = merge --no-ff
+    track = "!git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`"
+[core]
+    excludesfile = $HOME/.gitignore
+    whitespace = cr-at-eol
+    autocrlf = input
+[push]
+    default = current
+[branch]
+    autosetuprebase = always
+[https]
+[log]
+    date = iso
+[url "git@bitbucket.org:"]
+    insteadOf = https://bitbucket.org/

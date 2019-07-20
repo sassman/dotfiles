@@ -1,0 +1,49 @@
+# include what you want
+# add this to the .bashrc: . $HOME/.bashrc.load
+# put any bash customizations in here
+
+[[ -f /usr/share/git/completion/git-completion.bash ]] && source /usr/share/git/completion/git-completion.bash
+
+export CLASSPATH=$HOME/bin/jar/:$HOME/bin/ec2-api-tools/lib:$CLASSPATH
+export HISTSIZE=10000
+
+# set a fancy prompt (non-color, unless we know we "want" color) 
+case "$TERM" in 
+    xterm)color_prompt=yes;; 
+    xterm-color) color_prompt=yes;; 
+esac 
+
+if [ -n "$force_color_prompt" ]; then
+    if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
+        # We have color support; assume it's compliant with Ecma-48
+        # (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+        # a case would tend to support setf rather than setaf.)
+        color_prompt=yes
+    else
+        color_prompt=
+    fi
+fi
+
+### git promt manipulation
+gitbranch=$(git branch 2>/dev/null|fgrep '*' | sed s/\*\ /\/)
+if [ "$color_prompt" = yes ]; then
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u\[\033[01;33m\]@\[\033[01;36m\]\h\[\033[00m\]:\[\033[01;33m\]\w\[\e[0m\]\[\e[31m\]$(git branch 2>/dev/null|fgrep '\''*'\''|sed '\''s/$/]/;s/^* / [/'\'') \[\033[01;35m\]\$ \[\033[00m\]'
+else
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\[\e[31m\]$(git branch 2>/dev/null|fgrep '\''*'\''|sed '\''s/$/)/;s/^* / (/'\'')\[\e[0m\]$ '
+fi
+unset color_prompt force_color_prompt
+
+# If this is an xterm set the title to user@host:dir
+case "$TERM" in
+    xterm*|rxvt*)
+        PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+        ;;
+    *)
+        ;;
+esac
+
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8

@@ -1,0 +1,1575 @@
+# Diese viminfo-Datei wurde von Vim 7.3 generiert.
+# Sie können sie verändern, wenn Sie vorsichtig vorgehen!
+
+# Wert von 'encoding', als diese Datei geschrieben wurde
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Letztes Suchmuster:
+~MSle0~/bin
+
+# Letztes Substitute Suchmuster:
+~MSle0&VERSION
+
+# Letzte ersetzte Zeichenkette:
+$quantal
+
+# Befehlszeile Geschichte (neueste bis älteste):
+:q!
+:wq
+:w
+:X
+:Xwq
+:help cm
+:setlocal cm=blowfish
+:q
+:wq!
+:%s/VERSION/quantal/g
+:'<,'>s/.local/.net/g
+:'<,'>%s/.local/.net/g
+:highlight Search ctermfg=grey ctermbg=darkblue
+:highlight Normal ctermfg=grey ctermbg=darkblue
+:wq°
+:405
+:1260
+:tabe settings.py
+:tabp
+:tabn
+:tabe deploy/views.py
+:tabe ~/.vimrc
+:tabü
+:tabe gitana/urls.py
+:tabe gitana/views.py
+:/select_getanyfile
+:'<,'>s/define/hallo/g
+:set nu
+:.=
+:=
+:l
+:g
+:g:24
+:s
+:Config.run do |config|
+
+# Suchausdruck Geschichte (neueste bis älteste):
+?/bin
+?/utf
+?/has
+?/connect
+? \<DataMemory\>
+?/7.2.6
+?/Forward
+?/<<<
+? \<127\>
+?/bash_alias
+?/Xinerama
+?/Modul
+?/Modules
+?/modules
+?/Keep
+?/Pm
+?/Metodh
+?/PmMethod
+?/keep
+?/uat
+?/ust
+?/strict
+?/limit
+?/mode
+?/ansi
+?/start
+?/exchange
+?/issue
+?/innodb
+?/binlog
+?/^ca
+?/ca
+?/remote
+?/alias ls
+?/ls
+?/log_bin_trust_function_creators
+?/log
+? VERSION
+?/menuentry
+? .local
+? \<logs\>
+?/lubico.local
+?/default
+?/server
+?/hl
+?/PS1
+? \<IfModule\>
+? \<10\>
+?/homes
+?/KiB
+?/deploy/urls.py
+?/run_service
+?/info
+?/show_text_ref
+?/ref
+?/for_each_ref
+?/select_getanyfile
+?/getanyfile
+? select_getanyfile
+?/refs
+?/info*refs
+?/service
+? define
+?/HISTSIZE
+?/reqest
+?/git
+?/development
+?/log-bin
+? 24
+?/gilgamesch
+?/localhost
+?/local
+?/apt_pkg
+?/PS
+?/WCMS
+?/mem
+?/post
+?/size
+?/www-data
+?/xdebug
+? ^\.\.\=/$
+?/www
+?/JAVA
+? \<export\>
+? \<PasswordAuthentication\>
+
+# Ausdruck Geschichte (neueste bis älteste):
+
+# Eingabe-Zeile Geschichte (neueste bis älteste):
+
+# Eingabe-Zeile Geschichte (neueste bis älteste):
+
+# Register:
+"0	LINE	0
+	basicloader.classes.3 = "App_Tool_ArchiveProvider"
+""1	LINE	0
+	alias ls='ls -lha --color=auto'n
+"2	LINE	0
+	psycopg2==2.4.5
+"3	LINE	0
+	        {% block container %}
+	        {% endblock %}
+"4	LINE	0
+	
+"5	LINE	0
+	<div class="navbar navbar-fixed-top">
+	    <div class="navbar-inner">
+	        <div class="container">
+	            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	            </a>
+	            <a class="brand" href="#">gitploy.com</a>
+	            <div class="nav-collapse pull-right">
+	                <ul class="nav">
+	                    {% block top-navigation %}
+	                    <li class="active"><a href="#">Welcome</a></li>
+	{#                    <li><a href="{% url explore %}">Explore</a></li>#}
+	{#                    <li><a href="{% url features %}">Features</a></li>#}
+	{#                    <li><a href="{% url blog %}">Blog</a></li>#}
+	{#                    <li><a href="{% url contact %}">Contact</a></li>#}
+	                    <li><a href="{% url entry %}">Signup and Pricing</a></li>
+	                    {% endblock %}
+	                </ul>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+"6	LINE	0
+	dd            {% block jq-init %}{% endblock %}
+"7	LINE	0
+	    {% block style %}{% endblock %}
+"8	LINE	0
+	    {% block script %}{% endblock %}
+"9	LINE	0
+	dd    {% load staticfiles %}
+"-	CHAR	0
+	n
+
+# Datei-Marken:
+'0  40  0  ~/.dotfiles/bin/dfm
+'1  21  18  ~/.bashrc.load
+'2  12  0  ~/.bashrc.load
+'3  37  0  ~/.bashrc.load
+'4  77  61  ~/.bash_aliases
+'5  20  3  /etc/fstab
+'6  58  144  ~/.bash_aliases
+'7  1  0  ~/etc/fstab
+'8  91  0  ~/workspaces/web/tierheim-winkwitz.de/libraries/joomla/database/database/mysqli.php
+'9  180  60  ~/workspaces/web/tierheim-winkwitz.de/libraries/joomla/database/database/mysql.php
+
+# Geschichte (neueste zuerst):
+-'  40  0  ~/.dotfiles/bin/dfm
+-'  1  7  ~/.dotfiles/bin/dfm
+-'  921  8  ~/.dotfiles/bin/dfm
+-'  811  49  ~/.dotfiles/bin/dfm
+-'  432  0  ~/.dotfiles/bin/dfm
+-'  21  18  ~/.bashrc.load
+-'  1  0  ~/.bashrc.load
+-'  12  0  ~/.bashrc.load
+-'  37  0  ~/.bashrc.load
+-'  77  61  ~/.bash_aliases
+-'  1  0  ~/.bash_aliases
+-'  20  3  /etc/fstab
+-'  1  0  /etc/fstab
+-'  58  144  ~/.bash_aliases
+-'  1  0  ~/etc/fstab
+-'  91  0  ~/workspaces/web/tierheim-winkwitz.de/libraries/joomla/database/database/mysqli.php
+-'  108  2  ~/workspaces/web/tierheim-winkwitz.de/libraries/joomla/database/database/mysqli.php
+-'  1  0  ~/workspaces/web/tierheim-winkwitz.de/libraries/joomla/database/database/mysqli.php
+-'  180  60  ~/workspaces/web/tierheim-winkwitz.de/libraries/joomla/database/database/mysql.php
+-'  166  10  ~/workspaces/web/tierheim-winkwitz.de/libraries/joomla/database/database/mysql.php
+-'  135  41  ~/workspaces/web/tierheim-winkwitz.de/libraries/joomla/database/database/mysql.php
+-'  83  0  ~/workspaces/web/tierheim-winkwitz.de/libraries/joomla/database/database/mysql.php
+-'  1  0  ~/workspaces/web/tierheim-winkwitz.de/libraries/joomla/database/database/mysql.php
+-'  63  77  ~/workspaces/web/tierheim-winkwitz.de/libraries/joomla/database/database/mysql.php
+-'  43  0  ~/workspaces/web/tierheim-winkwitz.de/configuration.php
+-'  1  0  ~/workspaces/web/tierheim-winkwitz.de/configuration.php
+-'  1  0  ~/secret2
+-'  1  0  ~/secret
+-'  16  14  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  82  16  ~/.ssh/config
+-'  1  0  ~/.ssh/config
+-'  80  66  ~/.ssh/config
+-'  3  0  ~/workspaces/web/canvascutter/canvas_cutter_core/requirements.txt
+-'  1  0  ~/workspaces/web/canvascutter/canvas_cutter_core/requirements.txt
+-'  60  26  ~/workspaces/cpp/kde/build-kdepim/.build-config
+-'  1  0  ~/workspaces/cpp/kde/build-kdepim/.build-config
+-'  60  0  ~/.ssh/config
+-'  2  0  ~/.aws.config.lubico
+-'  1  0  ~/.aws.config.lubico
+-'  1  0  ~/workspaces/web/gitploy.com/comming_soon/index.html
+-'  1  0  ~/workspaces/web/gitploy.com/gitploy/templates/strapon_external.html
+-'  1  0  ~/workspaces/web/gitploy.com/gitploy/templates/flatpages/default.html
+-'  1  0  ~/workspaces/web/gitploy.com/gitploy/templates/flatpages/teaser.html
+-'  57  1  ~/workspaces/web/gitploy.com/gitploy/templates/external.html
+-'  1  0  ~/workspaces/web/gitploy.com/gitploy/templates/external.html
+-'  44  0  ~/workspaces/web/gitploy.com/comming_soon/index.html
+-'  5  0  ~/workspaces/b2x/phoenix/Trunk/scripts/build/.zf.ini
+-'  1  0  ~/workspaces/b2x/phoenix/Trunk/scripts/build/.zf.ini
+-'  8  48  ~/workspaces/b2x/phoenix/Trunk/scripts/build/.zf.ini
+-'  2  85  /etc/exports
+-'  1  0  /etc/exports
+-'  13  22  /etc/default/nfs-common
+-'  1  0  /etc/default/nfs-common
+-'  65  82  ~/.ssh/config
+-'  19  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/README.rst
+-'  1  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/README.rst
+-'  23  24  ~/workspaces/web/rabbitmq/tutorial/work_queues/worker.py
+-'  1  0  ~/workspaces/web/rabbitmq/tutorial/work_queues/worker.py
+-'  13  32  ~/workspaces/web/rabbitmq/tutorial/work_queues/new_task.py
+-'  1  0  ~/workspaces/web/rabbitmq/tutorial/work_queues/new_task.py
+-'  18  0  ~/workspaces/web/rabbitmq/tutorial/work_queues/worker.py
+-'  109  13  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/base.pp
+-'  1  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/base.pp
+-'  3  1  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/config.ini
+-'  1  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/config.ini
+-'  136  95  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/base.pp
+-'  3  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/bash.bashrc
+-'  1  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/bash.bashrc
+-'  7  24  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/mgmt/Vagrantfile
+-'  1  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/mgmt/Vagrantfile
+-'  141  2  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/base.pp
+-'  139  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/base.pp
+-'  25  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/config.ini
+-'  4  12  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/config.ini
+-'  21  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/config.ini
+-'  17  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/config.ini
+-'  18  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/startup.sh
+-'  1  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/startup.sh
+-'  2  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/shutdown.sh
+-'  1  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/shutdown.sh
+-'  7  18  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/config.ini
+-'  6  16  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/config.ini
+-'  20  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/my.cnf
+-'  1  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/my.cnf
+-'  19  21  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/my.cnf
+-'  15  36  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/node1/Vagrantfile
+-'  1  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/node1/Vagrantfile
+-'  18  23  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/my.cnf
+-'  10  15  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/.git/config
+-'  1  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/.git/config
+-'  3  47  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/startup.sh
+-'  14  0  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/base.pp
+-'  11  41  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/startup.sh
+-'  29  0  /etc/apt/sources.list
+-'  1  0  /etc/apt/sources.list
+-'  1  67  /etc/apt/sources.list.d/virtualbox.list
+-'  13  4  ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/mgmt/Vagrantfile
+
+# Geschichte der Markierungen innerhalb von Dateien (neueste zuerst):
+
+> ~/.dotfiles/bin/dfm
+	"	40	0
+
+> ~/.bashrc.load
+	"	21	18
+	^	12	0
+	.	14	0
+	+	36	41
+	+	10	31
+	+	12	0
+	+	12	38
+	+	14	6
+	+	12	0
+	+	13	3
+	+	14	0
+
+> ~/.bashrc
+	"	69	0
+	.	96	0
+	+	73	22
+	+	104	42
+	+	104	25
+	+	104	0
+	+	104	0
+	+	65	0
+	+	66	0
+	+	67	0
+	+	68	0
+	+	69	0
+	+	70	0
+	+	71	0
+	+	65	0
+	+	66	0
+	+	67	0
+	+	68	0
+	+	69	0
+	+	70	0
+	+	71	0
+	+	19	0
+	+	18	13
+	+	19	17
+	+	74	19
+	+	104	40
+	+	104	24
+	+	104	16
+	+	104	32
+	+	56	123
+	+	56	205
+	+	56	123
+	+	56	204
+	+	74	19
+	+	94	0
+	+	104	0
+	+	104	0
+	+	104	0
+	+	104	0
+	+	96	0
+	+	96	0
+	+	96	0
+	+	96	0
+	+	96	26
+	+	96	24
+	+	104	66
+	+	104	106
+	+	104	0
+	+	96	0
+	n	6	7
+
+> ~/.bash_aliases
+	"	77	61
+	^	77	62
+	.	77	50
+	+	50	0
+	+	39	50
+	+	40	27
+	+	48	1
+	+	53	22
+	+	6	0
+	+	56	92
+	+	55	49
+	+	56	65
+	+	55	125
+	+	56	0
+	+	55	64
+	+	60	38
+	+	62	124
+	+	63	67
+	+	64	144
+	+	64	58
+	+	64	146
+	+	64	59
+	+	64	149
+	+	64	60
+	+	65	64
+	+	65	68
+	+	66	77
+	+	69	87
+	+	56	0
+	+	56	100
+	+	56	16
+	+	56	76
+	+	55	0
+	+	56	108
+	+	56	79
+	+	71	261
+	+	71	22
+	+	72	3
+	+	72	154
+	+	72	153
+	+	72	258
+	+	72	12
+	+	72	174
+	+	72	257
+	+	72	159
+	+	72	145
+	+	72	159
+	+	72	144
+	+	72	4
+	+	72	159
+	+	72	159
+	+	72	0
+	+	72	0
+	+	56	0
+	+	58	100
+	+	77	50
+
+> /etc/fstab
+	"	20	3
+	^	20	46
+	.	20	45
+	+	18	0
+	+	24	108
+	+	25	0
+	+	25	0
+	+	26	0
+	+	25	49
+	+	24	43
+	+	25	24
+	+	24	96
+	+	25	103
+	+	19	67
+	+	20	65
+	+	14	34
+	+	20	45
+	e	20	41
+
+> ~/etc/fstab
+	"	1	0
+
+> ~/workspaces/web/tierheim-winkwitz.de/libraries/joomla/database/database/mysqli.php
+	"	91	0
+
+> ~/workspaces/web/tierheim-winkwitz.de/libraries/joomla/database/database/mysql.php
+	"	180	60
+	^	180	61
+	.	180	60
+	+	180	60
+
+> ~/workspaces/web/tierheim-winkwitz.de/configuration.php
+	"	43	0
+
+> ~/secret2
+	"	1	0
+	^	1	5
+	.	1	4
+	+	1	4
+
+> ~/secret
+	"	1	0
+	^	1	11
+	.	1	11
+	+	1	11
+
+> ~/.vimrc
+	"	16	14
+	^	16	15
+	.	16	14
+	+	16	14
+
+> /usr/share/vim/vim73/doc/map.txt
+	"	57	34
+
+> ~/.ssh/config
+	"	82	16
+	^	82	17
+	.	82	16
+	+	50	0
+	+	51	0
+	+	52	0
+	+	53	33
+	+	56	22
+	+	65	78
+	+	66	38
+	+	85	0
+	+	68	78
+	+	70	17
+	+	68	5
+	+	67	0
+	+	65	27
+	+	82	17
+	+	79	42
+	+	82	12
+	+	62	14
+	+	65	0
+	+	68	102
+	+	68	92
+	+	72	0
+	+	79	0
+	+	74	0
+	+	72	19
+	+	65	60
+	+	68	65
+	+	72	21
+	+	76	23
+	+	77	0
+	+	78	16
+	+	72	20
+	+	62	31
+	+	68	116
+	+	68	113
+	+	68	133
+	+	72	29
+	+	65	70
+	+	58	0
+	+	59	0
+	+	60	0
+	+	80	66
+	+	82	16
+
+> ~/workspaces/web/canvascutter/canvas_cutter_core/requirements.txt
+	"	3	0
+	.	3	0
+	+	1	12
+	+	2	11
+	+	3	0
+
+> ~/workspaces/cpp/kde/build-kdepim/.build-config
+	"	60	26
+	^	60	27
+	.	60	26
+	+	60	26
+
+> ~/.aws.config.lubico
+	"	2	0
+	^	2	0
+	.	1	32
+	+	1	22
+	+	4	23
+	+	1	24
+	+	3	0
+	+	1	32
+
+> ~/workspaces/web/gitploy.com/comming_soon/index.html
+	"	1	0
+	^	29	30
+	.	29	29
+	+	1	0
+	+	11	29
+	+	12	36
+	+	11	0
+	+	13	0
+	+	17	0
+	+	14	33
+	+	15	33
+	+	16	47
+	+	15	65
+	+	14	54
+	+	16	40
+	+	18	37
+	+	22	0
+	+	27	0
+	+	30	0
+	+	29	29
+
+> ~/workspaces/web/gitploy.com/gitploy/templates/strapon_external.html
+	"	1	0
+
+> ~/workspaces/web/gitploy.com/gitploy/templates/flatpages/default.html
+	"	1	0
+
+> ~/workspaces/web/gitploy.com/gitploy/templates/flatpages/teaser.html
+	"	1	0
+
+> ~/workspaces/web/gitploy.com/gitploy/templates/external.html
+	"	57	1
+
+> ~/workspaces/b2x/phoenix/Trunk/scripts/build/.zf.ini
+	"	5	0
+	^	5	1
+	.	5	0
+	+	8	0
+	+	8	0
+	+	6	21
+	+	7	20
+	+	8	39
+	+	5	0
+
+> /etc/exports
+	"	2	85
+	^	1	30
+	.	1	0
+	+	2	61
+	+	1	0
+
+> /etc/default/nfs-common
+	"	13	22
+	^	13	23
+	.	13	22
+	+	13	22
+
+> ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/README.rst
+	"	19	0
+	^	19	0
+	.	19	14
+	+	19	14
+
+> ~/workspaces/web/rabbitmq/tutorial/work_queues/worker.py
+	"	23	24
+	^	23	25
+	.	23	0
+	+	17	21
+	+	1	21
+	+	12	55
+	+	1	0
+	+	4	0
+	+	1	0
+	+	2	0
+	+	14	0
+	+	23	0
+
+> ~/workspaces/web/rabbitmq/tutorial/work_queues/new_task.py
+	"	13	32
+	^	13	33
+	.	2	0
+	+	14	0
+	+	8	0
+	+	4	0
+	+	1	0
+	+	2	0
+
+> ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/base.pp
+	"	109	13
+	^	136	96
+	.	136	95
+	+	14	71
+	+	20	38
+	+	103	33
+	+	103	1
+	+	103	3
+	+	103	4
+	+	103	4
+	+	103	1
+	+	139	0
+	+	103	0
+	+	107	0
+	+	101	0
+	+	98	0
+	+	99	0
+	+	100	0
+	+	101	0
+	+	100	1
+	+	99	3
+	+	96	5
+	+	16	3
+	+	137	23
+	+	136	40
+	+	134	0
+	+	133	1
+	+	134	3
+	+	134	0
+	+	136	0
+	+	137	0
+	+	138	0
+	+	136	16
+	+	134	15
+	+	134	37
+	+	136	93
+	+	134	11
+	+	136	97
+	+	135	0
+	+	134	0
+	+	99	15
+	+	100	15
+	+	133	28
+	+	136	122
+	+	136	95
+
+> ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/config.ini
+	"	3	1
+	^	3	2
+	.	3	1
+	+	6	13
+	+	8	21
+	+	9	0
+	+	6	16
+	+	8	25
+	+	9	28
+	+	6	16
+	+	8	25
+	+	9	28
+	+	6	18
+	+	7	18
+	+	17	0
+	+	17	0
+	+	21	0
+	+	21	0
+	+	17	0
+	+	21	0
+	+	7	18
+	+	8	25
+	+	9	28
+	+	5	0
+	+	4	16
+	+	10	0
+	+	3	13
+	+	4	13
+	+	21	0
+	+	25	0
+	+	21	0
+	+	25	0
+	+	3	1
+
+> /etc/apache2/mods-enabled/php5.conf
+	"	28	4
+	^	28	5
+	.	28	4
+	+	24	4
+	+	25	4
+	+	26	4
+	+	27	4
+	+	28	4
+
+> /etc/apache2/mods-enabled/userdir.conf
+	"	12	0
+	^	6	33
+	.	6	33
+	+	7	16
+	+	6	33
+
+> ~/workspaces/web/web-tierheim-live/db-to-cluster.sh
+	"	1	75
+	^	1	76
+	.	1	75
+	+	1	75
+
+> ~/workspaces/web/web-tierheim-live/.gitignore
+	"	10	20
+	^	10	21
+	.	10	20
+	+	7	7
+	+	10	20
+
+> ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/bash.bashrc
+	"	3	0
+
+> ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/mgmt/Vagrantfile
+	"	7	24
+	^	7	25
+	.	7	25
+	+	13	4
+	+	7	25
+
+> ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/startup.sh
+	"	18	0
+	^	3	48
+	.	3	48
+	+	11	41
+	+	4	95
+	+	3	48
+
+> ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/shutdown.sh
+	"	2	0
+	.	3	0
+	+	5	12
+	+	3	0
+
+> ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/manifests/my.cnf
+	"	20	0
+	^	19	22
+	.	19	21
+	+	18	23
+	+	19	0
+	+	18	1
+	+	19	21
+
+> ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/node1/Vagrantfile
+	"	15	36
+	^	15	37
+	.	15	3
+	+	15	3
+
+> ~/workspaces/web/mysql-cluster/vagrant-mysql-cluster/.git/config
+	"	10	15
+	^	10	16
+	.	10	15
+	+	10	15
+
+> /etc/apt/sources.list
+	"	29	0
+	.	60	0
+	+	60	0
+
+> /etc/apt/sources.list.d/virtualbox.list
+	"	1	67
+	^	1	68
+	.	1	0
+	+	1	0
+
+> /etc/ufw/before.rules
+	"	17	40
+	^	17	41
+	.	17	39
+	+	20	6
+	+	21	0
+	+	17	39
+
+> /etc/ufw/sysctl.conf
+	"	10	0
+	.	9	0
+	+	8	0
+	+	9	0
+
+> /etc/default/ufw
+	"	20	29
+	^	20	30
+	.	20	29
+	+	20	0
+	+	19	1
+	+	20	29
+
+> ~/workspaces/b2x/localdev.vhost
+	"	29	13
+	^	29	14
+	.	29	13
+	+	8	11
+	+	17	25
+	+	3	21
+	+	51	11
+	+	60	21
+	+	72	0
+	+	74	0
+	+	8	19
+	+	17	33
+	+	25	47
+	+	50	4
+	+	51	75
+	+	51	65
+	+	51	37
+	+	51	40
+	+	51	0
+	+	72	0
+	+	51	0
+	+	25	46
+	+	28	4
+	+	29	66
+	+	30	65
+	+	38	29
+	+	46	50
+	+	29	13
+
+> ~/workspaces/b2x/phoenix_repo/Branches/v.3.01/scripts/sql/sh_context
+	"	9	3
+	^	9	21
+	.	7	18
+	+	9	0
+	+	7	20
+	+	9	19
+	+	7	18
+
+> ~/workspaces/web/lubico.net/lubico/code_lubico/settings.py
+	"	154	0
+	^	154	1
+	.	154	0
+	+	140	23
+	+	141	13
+	+	237	0
+	+	232	51
+	+	233	2
+	+	153	0
+	+	154	0
+
+> ~/workspaces/web/gitflow/login.txt
+	"	1	83
+	^	1	84
+	.	1	83
+	+	1	40
+	+	1	83
+
+> ~/bin/git-changing-author
+	"	13	0
+	.	13	0
+	+	23	0
+	+	10	53
+	+	10	50
+	+	12	19
+	+	10	33
+	+	13	0
+	+	13	4
+	+	3	19
+	+	11	0
+	+	14	20
+	+	16	0
+	+	13	0
+
+> ~/workspaces/cpp/stegano.kde/README.rst
+	"	16	112
+	^	16	113
+	.	16	101
+	+	57	11
+	+	54	11
+	+	57	152
+	+	57	38
+	+	56	25
+	+	57	52
+	+	50	112
+	+	51	54
+	+	48	23
+	+	60	148
+	+	32	22
+	+	42	46
+	+	42	0
+	+	54	0
+	+	4	26
+	+	13	119
+	+	22	11
+	+	13	120
+	+	18	196
+	+	13	126
+	+	22	12
+	+	13	127
+	+	20	261
+	+	9	22
+	+	11	21
+	+	22	0
+	+	8	0
+	+	9	0
+	+	22	0
+	+	13	90
+	+	20	206
+	+	13	104
+	+	20	0
+	+	20	206
+	+	13	170
+	+	15	64
+	+	15	255
+	+	16	101
+
+> ~/workspaces/cpp/stegano.kde/README
+	"	1	0
+
+> ~/workspaces/cpp/stegano.kde-test/README.rst
+	"	30	0
+
+> ~/workspaces/cpp/stegano.kde/app/steganocore.cpp
+	"	219	0
+	.	231	0
+	+	19	0
+	+	21	0
+	+	27	0
+	+	28	0
+	+	70	0
+	+	75	0
+	+	114	0
+	+	167	0
+	+	197	0
+	+	231	0
+
+> ~/workspaces/cpp/stegano.kde/app/steganocore.h
+	"	1	0
+	.	59	0
+	+	8	0
+	+	20	0
+	+	29	0
+	+	36	0
+	+	57	0
+	+	59	0
+
+> ~/workspaces/cpp/stegano.kde/app/messagecontainer.cpp
+	"	185	0
+	.	179	0
+	+	4	0
+	+	5	0
+	+	178	0
+	+	179	0
+
+> ~/workspaces/cpp/stegano.kde/app/messagecontainer.h
+	"	160	4
+	.	160	0
+	+	42	0
+	+	43	0
+	+	159	0
+	+	160	0
+
+> ~/workspaces/cpp/stegano.kde/app/steganodialog.cpp
+	"	297	0
+	.	269	0
+	+	159	0
+	+	172	0
+	+	178	0
+	+	180	0
+	+	229	0
+	+	233	0
+	+	237	0
+	+	245	0
+	+	262	0
+	+	269	0
+
+> ~/workspaces/cpp/stegano.kde/app/steganodialog.h
+	"	31	4
+	.	32	0
+	+	31	0
+	+	32	0
+
+> ~/.gitconfig
+	"	25	23
+	^	25	24
+	.	25	0
+	+	26	1
+	+	8	3
+	+	7	3
+	+	6	3
+	+	5	3
+	+	9	4
+	+	10	3
+	+	26	43
+	+	26	3
+	+	2	3
+	+	3	3
+	+	11	7
+	+	26	0
+	+	26	3
+	+	26	3
+	+	26	3
+	+	26	3
+	+	26	3
+	+	26	3
+	+	26	0
+	+	26	0
+	+	12	0
+	+	13	18
+	+	25	0
+
+> ~/bin/shorten.py
+	"	6	0
+	^	6	0
+	.	6	50
+	+	1	17
+	+	3	27
+	+	5	2
+	+	10	0
+	+	15	0
+	+	13	0
+	+	10	110
+	+	3	14
+	+	3	11
+	+	3	46
+	+	10	6
+	+	3	8
+	+	3	0
+	+	3	4
+	+	11	0
+	+	7	0
+	+	8	18
+	+	13	49
+	+	14	13
+	+	3	11
+	+	10	13
+	+	3	24
+	+	3	0
+	+	6	0
+	+	3	0
+	+	6	3
+	+	14	20
+	+	13	55
+	+	14	19
+	+	13	21
+	+	6	50
+
+> ~/workspaces/web/django_vagrant_test/django_vagrant_test/settings/base.py
+	"	183	0
+
+> ~/workspaces/web/django_vagrant_test/core/views.py
+	"	1	0
+
+> ~/workspaces/web/django_vagrant_test/django_vagrant_test/urls.py
+	"	9	0
+
+> ~/.ssh/id_rsa_b2xcare.pub
+	"	1	749
+	^	1	750
+	.	1	749
+	+	1	749
+
+> ~/workspaces/web/web-tierheim-live/db-to-rds.sh
+	"	1	109
+	^	1	110
+	.	1	109
+	+	1	141
+	+	1	7
+	+	1	109
+
+> ~/Downloads/checkmyip.php
+	"	3	53
+	^	3	54
+	.	4	0
+	+	2	0
+	+	3	48
+	+	3	54
+	+	3	54
+	+	4	0
+
+> ~/workspaces/web/lubico.net/config/ssl/files.lubico.net.cert
+	"	1	0
+	^	1	0
+	.	30	0
+	+	30	0
+
+> ~/workspaces/web/lubico.net/lubico/code_lubico/settings.py.LOCAL.22328.py
+	"	1	0
+
+> ~/workspaces/web/lubico.net/lubico/code_lubico/settings.py.BASE.22328.py
+	"	1	0
+
+> ~/workspaces/web/lubico.net/lubico/code_lubico/settings.py.REMOTE.22328.py
+	"	1	0
+
+> ~/workspaces/web/lubico.net/lubico/code_lubico/settings.py.LOCAL.22220.py
+	"	140	0
+
+> ~/workspaces/web/lubico.net/lubico/code_lubico/settings.py.BASE.22220.py
+	"	140	0
+
+> ~/workspaces/web/lubico.net/lubico/code_lubico/settings.py.REMOTE.22220.py
+	"	140	0
+
+> ~/workspaces/web/django_vagrant_test/Vagrantfile
+	"	18	1
+	^	6	28
+	.	18	1
+	+	6	26
+	+	7	57
+	+	23	54
+	+	22	49
+	+	23	9
+	+	22	50
+	+	24	8
+	+	22	9
+	+	25	0
+	+	22	0
+	+	23	8
+	+	22	8
+	+	23	9
+	+	22	9
+	+	23	8
+	+	24	10
+	+	8	22
+	+	8	122
+	+	7	2
+	+	24	8
+	+	18	1
+
+> ~/workspaces/web/lubico.net/lubico/config/gunicorn
+	"	7	0
+	^	7	0
+	.	7	52
+	+	17	0
+	+	3	3
+	+	9	2
+	+	7	0
+	+	6	1
+	+	7	52
+
+> ~/workspaces/web/lubico.net/lubico/ls
+	"	1	0
+
+> ~/workspaces/b2x/phoenix_repo/Trunk/scripts/sql/sh_context
+	"	8	0
+	^	8	15
+	.	8	14
+	+	7	23
+	+	8	13
+	+	9	15
+	+	8	14
+
+> ~/workspaces/b2x/docs/aws.config
+	"	2	17
+	^	2	18
+	.	2	63
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	15
+	+	2	15
+	+	1	6
+	+	2	63
+
+> ~/etc/hosts
+	"	59	60
+	^	59	61
+	.	59	60
+	+	53	13
+	+	51	0
+	+	52	0
+	+	52	14
+	+	54	34
+	+	56	0
+	+	55	60
+	+	49	0
+	+	50	0
+	+	49	9
+	+	48	0
+	+	49	0
+	+	61	22
+	+	13	32
+	+	18	0
+	+	13	0
+	+	18	0
+	+	20	0
+	+	19	16
+	+	21	21
+	+	22	0
+	+	20	18
+	+	24	0
+	+	25	27
+	+	26	19
+	+	37	0
+	+	28	36
+	+	28	36
+	+	28	35
+	+	37	22
+	+	33	20
+	+	23	20
+	+	28	36
+	+	29	0
+	+	37	0
+	+	35	0
+	+	36	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	59	60
+
+> ~/.vagrant.d/boxes/ubuntu-12.04x64/Vagrantfile
+	"	1	0
+	^	6	33
+	.	6	32
+	+	5	37
+	+	6	32
+
+> ~/workspaces/web/lubico.net/config/Vagrantfile.pkg
+	"	3	24
+	^	3	33
+	.	3	32
+	+	1	31
+	+	4	0
+	+	3	32
+
+> /etc/hosts
+	"	27	0
+	^	34	1
+	.	34	0
+	+	2	116
+	+	2	100
+	+	23	47
+	+	24	43
+	+	18	0
+	+	12	109
+	+	12	115
+	+	18	0
+	+	13	24
+	+	29	29
+	+	17	29
+	+	37	31
+	+	38	33
+	+	37	34
+	+	28	0
+	+	13	54
+	+	28	37
+	+	48	24
+	+	16	0
+	+	14	23
+	+	32	53
+	+	34	5
+	+	33	13
+	+	35	21
+	+	37	0
+	+	37	0
+	+	37	0
+	+	40	0
+	+	42	0
+	+	40	49
+	+	29	6
+	+	3	6
+	+	40	23
+	+	41	0
+	+	3	0
+	+	27	16
+	+	56	10
+	+	55	43
+	+	65	48
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	0
+
+> ~/workspaces/web/lubico.net/config/nginx/lubico.net.conf
+	"	4	0
+	^	3	1
+	.	3	0
+	+	3	0
+
+> ~/workspaces/b2x/phoenix_repo/Trunk/scripts/services/data-download-mft.sh
+	"	96	0
+	^	96	0
+	.	72	0
+	+	62	8
+	+	63	8
+	+	64	8
+	+	65	8
+	+	66	8
+	+	67	8
+	+	68	8
+	+	69	8
+	+	65	0
+	+	66	0
+	+	67	0
+	+	68	0
+	+	69	0
+	+	70	0
+	+	71	0
+	+	72	0
+
+> ~/workspaces/web/lubico.net/lubico/webroot/maintenance.html
+	"	5	6
+	^	5	7
+	.	5	6
+	+	5	6
+
+> /etc/host
+	"	1	0
+
+> ~/.bash_aliases_kde
+	"	24	10
+	^	24	11
+	.	24	9
+	+	58	0
+	+	3	7
+	+	4	0
+	+	24	9
+
+> /etc/bumblebee/xorg.conf.nvidia
+	"	39	21
+	^	94	1
+	.	93	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	27
+	+	1	36
+	+	1	3
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	125	0
+	+	37	0
+	+	38	0
+	+	92	32
+	+	34	0
+	+	35	0
+	+	3	16
+	+	3	9
+	+	3	15
+	+	3	13
+	+	3	0
+	+	3	13
+	+	3	0
+	+	3	7
+	+	3	16
+	+	28	0
+	+	3	0
+	+	20	15
+	+	4	0
+	+	68	47
+	+	30	20
+	+	33	0
+	+	31	27
+	+	33	0
+	+	68	0
+	+	95	0
+	+	98	58
+	+	96	10
+	+	97	10
+	+	98	10
+	+	99	0
+	+	39	0
+	+	71	4
+	+	93	0
+
+> /etc/bumblebee/bumblebee.conf
+	"	1	0
+	^	10	1
+	.	10	0
+	+	23	12
+	+	48	34
+	+	53	76
+	+	56	45
+	+	11	0
+	+	10	0
+	+	11	21
+	+	50	0
+	+	51	0
+	+	50	1
+	+	51	12
+	+	11	0
+	+	10	0
+	+	11	0
+	+	10	0
+
+> /etc/mysql/my.cnf
+	"	132	11
+	^	145	23
+	.	132	11
+	+	53	22
+	+	65	0
+	+	59	0
+	+	65	0
+	+	109	0
+	+	108	30
+	+	110	0
+	+	46	22
+	+	169	0
+	+	20	18
+	+	50	17
+	+	179	19
+	+	20	0
+	+	54	24
+	+	55	24
+	+	22	26
+	+	24	0
+	+	124	26
+	+	37	0
+	+	38	0
+	+	36	0
+	+	35	0
+	+	34	0
+	+	33	0
+	+	114	33
+	+	114	34
+	+	152	0
+	+	145	25
+	+	150	0
+	+	146	0
+	+	150	22
+	+	152	0
+	+	151	0
+	+	115	0
+	+	116	0
+	+	150	0
+	+	146	0
+	+	145	22
+	+	150	0
+	+	146	0
+	+	151	0
+	+	152	0
+	+	151	0
+	+	152	0
+	+	145	22
+	+	146	0
+	+	150	0
+	+	147	27
+	+	150	0
+	+	147	29
+	+	149	0
+	+	148	27
+	+	149	27
+	+	145	21
+	+	146	0
+	+	150	0
+	+	142	28
+	+	147	0
+	+	148	0
+	+	149	0
+	+	147	0
+	+	148	0
+	+	149	0
+	+	145	22
+	+	131	0
+	+	145	21
+	+	132	0
+	+	131	0
+	+	132	12
+	+	145	0
+	+	67	21
+	+	145	23
+	+	132	11
+
+> ~/workspaces/b2x/phoenix_repo/Branches/v.2.11/scripts/sql/sh_context
+	"	9	15
+	^	9	16
+	.	9	16
+	+	7	0
+	+	8	0
+	+	9	16
+
+> /etc/init/mysql.conf
+	"	28	0
+	^	44	10
+	.	7	32
+	+	6	19
+	+	7	32
+
+> ~/workspaces/b2x/phoenix_repo/Trunk/scripts/sql/sp_issue_group.sql
+	"	815	52
+
+> /etc/security/limits.conf
+	"	57	0
+	^	57	0
+	.	58	0
+	+	55	0
+	+	56	23
+	+	58	0
+
+> ~/workspaces/pi/vpn/gilgamesch/client.conf
+	"	88	4
+	^	88	5
+	.	88	4
+	+	88	16
+	+	89	14
+	+	90	13
+	+	42	20
+	+	88	4
+
+> ~/workspaces/pi/vpn/easy-rsa/vars
+	"	74	21
+	^	74	22
+	.	72	19
+	+	53	20
+	+	64	22
+	+	65	24
+	+	66	24
+	+	67	22
+	+	68	31
+	+	69	0
+	+	70	20
+	+	71	22
+	+	72	19
+
+> /etc/apache2/apache2.conf
+	"	255	0
+
+> /etc/apache2/ports.conf
+	"	1	0
+	.	10	0
+	+	9	0
+	+	10	21
+	+	10	0
