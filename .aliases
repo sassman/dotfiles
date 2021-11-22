@@ -1,0 +1,5 @@
+alias decrypt="gpg -r 14190F27 --decrypt"
+alias encrypt="gpg -r 14190F27 --encrypt"
+alias today="date '+%Y%m%d'"
+
+alias ssh-keygen='ssh-keygen -t ed25519 -a 100'
