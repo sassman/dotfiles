@@ -1,5 +1,7 @@
 [user]
     name = Sven Assmann
+    email = sven.assmann.it@gmail.com 
+    signingkey = E7D243549E46EACC
 [color]
     diff = auto
     status = auto
@@ -9,7 +11,8 @@
     pager       = true
 [alias]
     co  = checkout
-    cm  = commit -m
+    cm  = commit -S -m
+    ca  = commit -S --amend
     st  = status
     di  = diff
     dic = diff --cached
@@ -17,14 +20,23 @@
     pl  = pull --rebase
     ph  = push origin
     f   = fetch -apt --all
+    fp  = push --force-with-lease o HEAD
+    l   = log --show-signature
     unstage = reset
     merge-to = "!gitmergeto() { export tmp_branch=`git branch | grep '* ' | tr -d '* '`; git checkout $1 && git merge --no-ff $tmp_branch && git checkout $tmp_branch; unset tmp_branch; }; gitmergeto"
     m = merge --no-ff
-    track = "!git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`"
+    track = "!git branch --set-upstream-to=o/`git symbolic-ref --short HEAD`"
+    sl = !git-branchless smartlog
+    r = rebase o/main
+    ar = !git stash && git rebase o/main && git stash pop
+    rc = rebase --continue
 [core]
-    excludesfile = $HOME/.gitignore
+    excludesfile = /Users/d34dl0ck/.gitignore_global
     whitespace = cr-at-eol
     autocrlf = input
+    pager = delta
+[interactive]
+    diffFilter = delta --color-only
 [push]
     default = current
 [branch]
@@ -32,5 +44,14 @@
 [https]
 [log]
     date = iso
+
 [url "git@bitbucket.org:"]
     insteadOf = https://bitbucket.org/
+
+#[url "git@github.com:"]
+#    insteadOf = https://github.com/
+
+[init]
+	defaultBranch = main
+[cinnabar]
+	helper = /opt/homebrew/Cellar/git-cinnabar/0.5.8/libexec/git-cinnabar-helper
